@@ -2,4 +2,4 @@ install:
   - sudo apt-get install aspell
 
 script: 
-  - cat my_prose.md | aspell -a
+  - cat my_prose.md | aspell --list
