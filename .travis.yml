@@ -1,0 +1,5 @@
+install:
+  - sudo apt-get install aspell
+
+script: 
+  - aspell my_prose.md
